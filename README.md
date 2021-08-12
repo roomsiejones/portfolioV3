@@ -11,8 +11,8 @@ HTML, CSS, SASS, and JavaScript
 
 The portfolio page was designed with mobile first, and then transitions to a bigger screen. 
 
-![Mobile View]()
-![Desktop View]()
+![Mobile View](./assets/images/mobile.GIF)
+![Desktop View](./assets/images/website.GIF)
  
 ## Table of Contents 
 * [License](#license)
