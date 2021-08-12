@@ -1,1 +1,166 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+body {
+  background-image: url("../images/5-dots.png");
+}
+
+.nav-container {
+  background: black;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2em;
+}
+
+header .logo {
+  color: #ff69b4;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+header .links {
+  color: #64ffe3;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+header nav {
+  float: right;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header nav a {
+  display: block;
+  padding: 0 1em;
+}
+
+.pill {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #0b06ff;
+  border-radius: 40%;
+  width: 6em;
+  height: 2.5em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  float: right;
+  margin-right: 2.7em;
+}
+
+.contact {
+  display: block;
+  color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin-top: 1em;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+a:hover {
+  opacity: 75%;
+}
+
+.purpose {
+  width: 60vw;
+  height: 25vh;
+  margin: 3em 0 0 1.9em;
+}
+
+.catchphrase {
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.subphrase {
+  color: blanchedalmond;
+  font-size: 11px;
+  padding-top: .8em;
+}
+
+.vector img {
+  width: 57vw;
+  height: 13vh;
+}
+
+.projects-container {
+  color: var(--wht);
+  text-align: center;
+  display: block;
+  margin: -.5em .5em .25em .5em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.project-title {
+  font-weight: bold;
+  font-size: larger;
+  margin: 1em 0 1em 0;
+}
+
+.project-desc {
+  font-size: small;
+  margin: 1em 0 1em 0;
+}
+
+.projects-container li {
+  background-color: white;
+  display: block;
+  margin-top: 1em;
+  padding: 1em;
+  border: .2em, white;
+  border-radius: 3em;
+}
+
+.projects-container li .img {
+  width: 75vw;
+  height: 45vw;
+}
+
+.copyright {
+  color: white;
+  background: black;
+  min-height: 3em;
+  margin-top: 5em;
+}
+
+@media only screen and (min-width: 800px) {
+  .projects-container ul {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 33% auto auto;
+        grid-template-columns: 33% auto auto;
+    margin-bottom: -1em;
+  }
+  .projects-container ul .img {
+    width: 25vw;
+    height: 15vw;
+  }
+  .vector img {
+    width: 57vw;
+    height: 13vh;
+    margin-left: -9em;
+  }
+  .copyright {
+    font-size: larger;
+    font-weight: bold;
+    margin-left: 5em;
+  }
+}
+/*# sourceMappingURL=main.css.map */

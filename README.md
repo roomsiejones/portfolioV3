@@ -5,7 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Description
 
-The aim of this was to update my portfolio page and other professional materials to be employer-ready.  In this, links to LinkedIn, my resume, my GIHUB, and a deployed portfolio website with at least 1 project and 2 homeworks have been included.
+The aim of this was to update my portfolio page and other professional materials to be employer-ready.  In this, links to LinkedIn, my resume, my GITHUB, and a deployed portfolio website with at least 1 project and 2 homeworks have been included.
 
 HTML, CSS, SASS, and JavaScript 
 
